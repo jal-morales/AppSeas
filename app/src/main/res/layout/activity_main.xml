@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16px"
+    android:background="@drawable/my_backgoun"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/lenguajesena"/>
+
+
+        <TextView
+            android:id="@+id/Leyenda_register_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="16dp"
+            android:text="@string/app_register"
+            android:textColor="@color/azul"
+            android:layout_alignParentStart="true"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:textColorHint="@color/azul"
+            android:textColor="@color/blanco"
+            android:textSize="20dp"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/register_correo_user"
+            android:layout_marginTop="32dp"
+            android:hint="@string/app_correo"
+            android:background="@drawable/rounded_corner"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:textColorHint="@color/azul"
+            android:textColor="@color/blanco"
+            android:textSize="20dp"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/register_password_user"
+            android:layout_marginTop="16dp"
+            android:hint="@string/app_password"
+            android:background="@drawable/rounded_corner"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:textColorHint="@color/azul"
+            android:textColor="@color/blanco"
+            android:textSize="20dp"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/register_password_repeat_user"
+            android:layout_marginTop="16dp"
+            android:hint="@string/app_password_repeat"
+            android:background="@drawable/rounded_corner"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_register"
+                android:backgroundTint="@color/azul"
+                android:textColor="@color/blanco"
+                android:padding="18dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="32dp"
+                android:textSize="20dp"
+                android:id="@+id/registering_user"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volver al Inicio"
+                android:backgroundTint="@color/azul"
+                android:textColor="@color/blanco"
+                android:padding="18dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="32dp"
+                android:textSize="20dp"
+                android:id="@+id/inicio_App"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
