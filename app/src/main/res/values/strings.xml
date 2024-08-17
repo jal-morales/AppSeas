@@ -1,3 +1,38 @@
 <resources>
-    <string name="app_name">AppSeñas</string>
+    <string name="app_name">Sumativa</string>
+    <string name="app_correo">Email</string>
+    <string name="app_password">Password</string>
+    <string name="app_password_repeat">Repetir Password</string>
+    <string name="app_login">Iniciar Sesion</string>
+    <string name="app_register">Registrarse</string>
+    <string name="app_recover_password">Recuperar Constraseña</string>
+
+    <string-array name="Letras_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
 </resources>
