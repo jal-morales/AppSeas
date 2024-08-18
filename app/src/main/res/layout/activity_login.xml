@@ -23,12 +23,10 @@
             android:importantForAccessibility="no"
             android:src="@drawable/logo"/>
 
-
         <TextView
             android:id="@+id/Leyenda_register_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_marginTop="16dp"
             android:text="@string/app_login"
             android:textColor="@color/azul"
@@ -47,8 +45,7 @@
             android:id="@+id/register_correo_user"
             android:layout_marginTop="32dp"
             android:hint="@string/app_correo"
-            android:background="@drawable/rounded_corner"
-            />
+            android:background="@drawable/rounded_corner"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -62,10 +59,9 @@
             android:id="@+id/register_password_user"
             android:layout_marginTop="16dp"
             android:hint="@string/app_password"
-            android:background="@drawable/rounded_corner"
-            />
+            android:background="@drawable/rounded_corner"/>
 
-
+        <!-- Nuevo TextView para Recuperar Contraseña -->
 
 
         <LinearLayout
@@ -75,8 +71,6 @@
             android:orientation="horizontal"
             android:gravity="center"
             android:layout_gravity="bottom">
-
-
 
             <Button
                 android:layout_width="wrap_content"
@@ -102,7 +96,22 @@
                 android:textSize="20dp"
                 android:id="@+id/registering_user"/>
 
+
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/recover_password_App"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:onClick="onRecoverPasswordClick"
+            android:text="@string/app_recover_password"
+            android:textColor="@color/azul"
+            android:textSize="14sp" />
 
     </LinearLayout>
 

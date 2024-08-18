@@ -3,13 +3,16 @@ package com.example.appseas
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.appseas.R.id.recover_password_App
 
 class LoginActivity : AppCompatActivity() {
     private  lateinit var registrarse_btn: Button
+    private lateinit var recuperarContrasenaButton: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +38,14 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
+        // Configuración del botón de recuperar contraseña
+        recuperarContrasenaButton = findViewById(R.id.recover_password_App)
+        recuperarContrasenaButton.setOnClickListener {
+            val intent = Intent(this, RecoveryActivity::class.java)
+            startActivity(intent)
+        }
     }
+
+
+
 }

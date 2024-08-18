@@ -64,6 +64,9 @@ class InicioActivity : AppCompatActivity() {
             startActivity(intent)
             finish() // Opcional: cerrar RegisterActivity si no se debe regresar a ella
         }
+
+
+
     }
 
 }
