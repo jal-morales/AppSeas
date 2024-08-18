@@ -30,11 +30,25 @@
             android:layout_height="wrap_content"
 
             android:layout_marginTop="16dp"
-            android:text="@string/app_login"
+            android:text="Bienvenidos a AppSeñas"
             android:textColor="@color/azul"
             android:layout_alignParentStart="true"
             android:textSize="16sp" />
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp" >
+
+        <TextView
+            android:id="@+id/content_App"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+        android:textSize="16sp"/>
+
+    </ScrollView>
 
 
 
@@ -49,8 +63,6 @@
             android:gravity="center"
             android:layout_gravity="bottom">
 
-
-
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,8 +74,6 @@
                 android:layout_marginTop="32dp"
                 android:textSize="20dp"
                 android:id="@+id/CerrarSession_App"/>
-
-
 
         </LinearLayout>
 
