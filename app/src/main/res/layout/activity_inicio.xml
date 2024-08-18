@@ -54,14 +54,14 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Volver"
+                android:text="Cerrar Session"
                 android:backgroundTint="@color/azul"
                 android:textColor="@color/blanco"
                 android:padding="18dp"
                 android:layout_margin="10dp"
                 android:layout_marginTop="32dp"
                 android:textSize="20dp"
-                android:id="@+id/inicio_App"/>
+                android:id="@+id/CerrarSession_App"/>
 
 
 
