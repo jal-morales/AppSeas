@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="negro">#FF000000</color>
-    <color name="blanco">#FFFFFFFF</color>
-    <color name="celeste">#aaeaeb</color>
-    <color name="amarillo">#ebf1a6</color>
-    <color name="rosado">#dfae90</color>
-    <color name="azul">#4343f2</color>
-    <color name="morado">#a843f2</color>
-
+    <color name="black">#</color>
+    <color name="Blanco">#FFFFFFFF</color>
 </resources>
